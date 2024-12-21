@@ -26,6 +26,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
+    ags.url = "github:aylur/ags";
+
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
 
@@ -46,6 +48,7 @@
     homeConfigurations = {
       laimick = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
+        extraSpecialArgs = { inherit inputs; };
         modules = [
           ./home.nix
         ];

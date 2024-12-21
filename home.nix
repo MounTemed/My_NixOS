@@ -11,6 +11,7 @@
     #./system/
     ./home
     #./modules/
+    inputs.ags.homeManagerModules.default
   ];
 
   nixpkgs.config.allowUnfree = true;
@@ -21,6 +22,19 @@
  #     download-buffer-size = 268435456; # 256MB
  #   };
  # };
+
+  programs.ags = {
+     enable = true;
+
+     # symlink to ~/.config/ags
+     configDir = ./home/service/ags;
+
+     # additional packages to add to gjs's runtime
+     extraPackages = with pkgs; [
+       inputs.ags.packages.${pkgs.system}.battery
+       fzf
+     ];
+  };
 
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage

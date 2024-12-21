@@ -27,7 +27,7 @@
      enable = true;
 
      # symlink to ~/.config/ags
-     configDir = ./home/service/ags;
+     configDir = null;
 
      # additional packages to add to gjs's runtime
      extraPackages = with pkgs; [

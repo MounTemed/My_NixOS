@@ -1,7 +1,7 @@
 { ... }: {
   imports = [
-    ./devops
     ./editors
     ./git
+    ./lang
   ];
 }

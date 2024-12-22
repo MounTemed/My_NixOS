@@ -1,7 +1,6 @@
 { pkgs, inputs, ... }: {
   imports = [
     ./wayland
-    ./ags
     ./games
   ];
 

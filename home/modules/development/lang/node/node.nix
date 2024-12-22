@@ -3,6 +3,5 @@
     nodejs
     nodemon
     eslint
-    prettier
   ];
 }

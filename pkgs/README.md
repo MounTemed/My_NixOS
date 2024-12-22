@@ -5,7 +5,7 @@
 
 ## Lang
 
-<img src="../.github/assets/zig.jpg" alt="zig">
+<img src="../.github/assets/zig.png" alt="zig">
 
 Languages to be used, Go and Zig may be Python
 

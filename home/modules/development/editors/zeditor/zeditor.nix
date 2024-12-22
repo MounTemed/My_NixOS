@@ -40,7 +40,6 @@
                 env = {
                     TERM = "kitty";
                 };
-                font_family = "fira-code";
                 font_features = null;
                 font_size = null;
                 line_height = "comfortable";
@@ -75,7 +74,7 @@
             base_keymap = "VSCode";
             theme = {
                 mode = "dark";
-                dark = "Nightcap (Blur)";
+                dark = "Nightcap";
             };
             show_whitespaces = "all" ;
             ui_font_size = 15;

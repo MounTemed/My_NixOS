@@ -74,7 +74,8 @@
             base_keymap = "VSCode";
             theme = {
                 mode = "dark";
-                dark = "Nightcap";
+                light = "Nightcap (Blur)";
+                dark = "Nightcap (Blur)";
             };
             show_whitespaces = "all" ;
             ui_font_size = 15;

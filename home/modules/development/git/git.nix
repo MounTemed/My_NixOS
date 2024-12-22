@@ -12,7 +12,6 @@
       };
       core = {
         editor = "zeditor";
-        autocrlf = input;
       };
       init = {
         defaultBranch = "master";

@@ -40,10 +40,12 @@
                 };
                 font_size = null;
                 option_as_meta = false;
+                font_features = null;
+                line_height = "comfortable";
                 button = false;
                 shell = "fish";
                 toolbar = {
-                    title = true;
+                    title = false;
                 };
                 working_directory = "current_project_directory";
             };
@@ -73,7 +75,6 @@
                 light = "Nightcap (Blur)";
                 dark = "Nightcap (Blur)";
             };
-            show_whitespaces = "all" ;
             ui_font_size = 15;
             buffer_font_size = 16;
         };

@@ -6,7 +6,6 @@
     ./modules
     inputs.ags.homeManagerModules.default
     inputs.hyprland.homeManagerModules.default
-    inputs.zen-browser.homeManagerModules.default
     inputs.ayugram-desktop.homeManagerModules.default
   ];
 

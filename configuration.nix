@@ -68,6 +68,10 @@
     package = config.boot.kernelPackages.nvidiaPackages.beta;
   };
 
+  environment.systemPackages = with pkgs; [
+    inputs.zen-browser.packages."x86_64-linux".default
+  ];
+
   programs.fish.enable = true;
 
   users.defaultUserShell = pkgs.fish;

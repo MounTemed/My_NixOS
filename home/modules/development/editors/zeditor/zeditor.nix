@@ -12,10 +12,8 @@
             default_open_ai_model = null;
 
             default_model = {
-              provider = "google";
-              # Reference the environment variable here
-              model = "gemini-1.5-flash";
-              # Additional options for the model (if any)
+              provider = "zed.dev";
+              model = "claude-3-5-sonnet-latest";
             };
           };
 
@@ -40,12 +38,10 @@
                 env = {
                     TERM = "kitty";
                 };
-                font_features = null;
                 font_size = null;
-                line_height = "comfortable";
                 option_as_meta = false;
                 button = false;
-                shell = "system";
+                shell = "fish";
                 toolbar = {
                     title = true;
                 };

@@ -19,7 +19,6 @@
     kubectl
     kubernetes
     minikube
-    tenv
     terraform
     btop
     gnome-keyring

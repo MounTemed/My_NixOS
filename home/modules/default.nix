@@ -3,7 +3,7 @@
     ./desktop
     ./development
     ./multimedia
-    ./networking
+    #./networking
     ./system
     ./terminal
   ];

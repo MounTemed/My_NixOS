@@ -6,7 +6,7 @@
     ./modules
     inputs.ags.homeManagerModules.default
     inputs.hyprland.homeManagerModules.default
-    inputs.ayugram-desktop.homeManagerModules.default
+    #inputs.ayugram-desktop.homeManagerModules.default
   ];
 
   nixpkgs.config.allowUnfree = true;

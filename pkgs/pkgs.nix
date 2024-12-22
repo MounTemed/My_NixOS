@@ -15,6 +15,26 @@
     noto-fonts
     python3
     zed-editor
+    kompose
+    kubectl
+    kubernetes
+    minikube
+    tenv
+    terraform
+    btop
+    gnome-keyring
+    gnumake
+    go
+    grc
+    grim
+    hyprpicker
+    keepassxc
+    nil
+    nodejs
+    tdf
+    zig
+    vulkan-tools
+
   ];
   programs.git.enable = true;
 }

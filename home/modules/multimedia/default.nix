@@ -1,0 +1,6 @@
+{ ... }: {
+  imports = [
+    ./photoqt
+    ./obs-studio
+  ];
+}
